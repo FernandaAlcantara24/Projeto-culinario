@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(temperosbg.jpeg);
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.792);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgb(30, 28, 28);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    font-size: 50px;
+    color: #F2A922;
+    text-align: center;
+    text-shadow: 1px 1px 3px #75460d;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #323E40;
+}
+
+#by{
+    text-align: center;
+    font-size: 13px;
+}
+
+a{
+    color: #D9501E;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #e69b40;
+    transition: 0.3s all;
+}
